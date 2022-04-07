@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <string.h>
-int main(void)
 /**
-*this function prints the string str2
+* main - Entry point
+*
+*Return: Always 0 (success)
 */
+int main(void)
 {
-char str1[60] = "\"Programming is like building a multilingual puzzle\n";
-char str2[60];
-strcpy(str2, str1);
-puts(str2);
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
