@@ -20,10 +20,14 @@ continue;
 }
 putchar(c + '0');
 putchar(k + '0');
+if (c == 8 && k == 9)
+{
+putchar('\n');
+break;
+}
 putchar(',');
 putchar(' ');
 }
 }
-putchar('\n');
 return (0);
 }
