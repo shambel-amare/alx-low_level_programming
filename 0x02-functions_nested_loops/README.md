@@ -1,0 +1,1 @@
+This directory for functions in alx-low-level programming
