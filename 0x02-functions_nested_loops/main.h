@@ -43,5 +43,17 @@ else if (x == 0)
 return (0);
 }
 }
+/*print the last digit of a number*/
+int print_last_digit(int n)
+{
+int lD;
+if (n < 0)
+{
+n = _abs(n);
+}
+lD = n % 10;
+_putchar(lD + '0');
+return(lD);
+}
 
 #endif /*MAIN_H*/
