@@ -7,11 +7,6 @@
 *Return: Always 0 (success)
 *Function to print character on stdout
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/*main function*/
 int main(void)
 {
 _putchar('_');
