@@ -14,10 +14,3 @@ for (c = 'a'; c <= 'z'; c++)
 _putchar(c);
 }
 }
-/*main function*/
-int main(void)
-{
-print_alphabet();
-_putchar('\n');
-return (0);
-}
