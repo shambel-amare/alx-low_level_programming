@@ -14,5 +14,11 @@ return (write(1, &c, 1));
 /*main function*/
 int main(void)
 {
+int i;
+char str[] = "_putchar\n";
+for(i=0; i < strlen(str);i++)
+{
+_putchar(str[i]);
+}
 return(0);
 }
