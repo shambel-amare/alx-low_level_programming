@@ -1,16 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_isaplha checks for alphabetic character.
-* main - check the code
+* _isalpha -checks for alphabetic character.
 *Return: Always 0 (success)
-*_putchar Function to print character on stdout
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/*_isalpha checks for alphabettic character*/
+
 int _isalpha(int c)
 {
 char i;

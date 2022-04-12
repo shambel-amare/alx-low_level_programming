@@ -1,16 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - check the code
+* _islower -function to print 1 for lowercase and 0 otherwise
 *Return: Always 0 (success)
-*_putchar Function to print character on stdout
+*int k is integer input
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/*function to print 1 for lowercase and 0 otherwise*/
-
 int _islower(int k)
 {
 char i;
@@ -32,18 +26,4 @@ else
 {
 return (0);
 }
-}
-/*main function*/
-int main(void)
-{
-int r;
-
-r = _islower('H');
-_putchar(r + '0');
-r = _islower('o');
-_putchar(r + '0');
-r = _islower(108);
-_putchar(r + '0');
-_putchar('\n');
-return (0);
 }

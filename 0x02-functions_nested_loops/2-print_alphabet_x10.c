@@ -1,15 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
-*Return: Always 0 (success)
-*_putchar Function to print character on stdout
+* print_alphabet_x10 -Function to print alphabets 10X
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/* Function to print alphabets 10X*/
 void print_alphabet_x10(void)
 {
 char c;
@@ -23,10 +16,4 @@ _putchar(c);
 _putchar('\n');
 i++;
 }
-}
-/*main function*/
-int main(void)
-{
-print_alphabet_x10();
-return (0);
 }

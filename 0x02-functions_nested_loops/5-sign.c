@@ -1,17 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*print_sign prints the sign ofa number
-* main - check the code
-* print_sign function resides in main.h
+* print_sign -prints the sign ofa number
 *Return: Always 0 (success)
-*_putchar Function to print character on stdout
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/*this function prints the sign of a number*/
 int print_sign(int n)
 {
 if (n > 0)

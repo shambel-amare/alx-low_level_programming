@@ -1,17 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*-abs function return absolute value of integer
-* main - check the code
-* _abs function resides in main.h
+* _abs -function return absolute value of integer
 *Return: Always 0 (success)
-*_putchar Function to print character on stdout
 */
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/*Function that computes the absolute value of an integer*/
+/*int x Function that computes the absolute value of an integer*/
 int _abs(int x)
 {
 if (x > 0)
