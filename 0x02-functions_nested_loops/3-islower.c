@@ -3,7 +3,7 @@
 /**
 * _islower -function to print 1 for lowercase and 0 otherwise
 *Return: Always 0 (success)
-*@k is integer input
+* @k: is integer input
 */
 int _islower(int k)
 {
