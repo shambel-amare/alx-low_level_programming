@@ -5,10 +5,7 @@
 *Return: lD (success)
 * @n: is integer input
 */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+
 int print_last_digit(int n)
 {
 int lD;
