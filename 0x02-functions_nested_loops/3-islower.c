@@ -7,7 +7,6 @@
 */
 int _islower(int k)
 {
-char i;
 char c;
 
 if ((k >= 'a' && k <= 'z') || (k >= 'A' && k <= 'Z'))
