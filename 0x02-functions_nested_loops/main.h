@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /*Function to print character on stdout*/
-char _putchar(char c);
+int _putchar(char c);
 /* Function to print alphabets*/
 void print_alphabet(void);
 /*Function to print alphabets with 10X while loop*/
