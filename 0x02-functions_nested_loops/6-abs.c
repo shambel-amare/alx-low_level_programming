@@ -3,7 +3,7 @@
 /**
 * _abs -function return absolute value of integer
 *Return: Always 0 (success)
-*@x: is integer input
+* @x: is integer input
 */
 int _abs(int x)
 {
