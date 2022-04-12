@@ -15,7 +15,7 @@ else if (x < 0)
 {
 return (-x);
 }
-else if (x == 0)
+else
 {
 return (0);
 }
