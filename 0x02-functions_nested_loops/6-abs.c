@@ -3,8 +3,8 @@
 /**
 * _abs -function return absolute value of integer
 *Return: Always 0 (success)
+*@x: is integer input
 */
-/*int x Function that computes the absolute value of an integer*/
 int _abs(int x)
 {
 if (x > 0)
