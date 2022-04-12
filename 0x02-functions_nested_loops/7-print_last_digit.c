@@ -1,15 +1,38 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*-abs function return absolute value of integer
+*print last digit of an integer
 * main - check the code
-* _abs function resides in main.h
 *Return: Always 0 (success)
 *_putchar Function to print character on stdout
 */
 char _putchar(char c)
 {
 return (write(1, &c, 1));
+}
+/*print the last digit of a number*/
+int print_last_digit(int n)
+{
+int lD;
+if (n < 0)
+{
+n = _abs(n);
+}
+lD = n % 10;
+_putchar(lD + '0');
+return(lD);
+}
+/*main function*/
+int main(void)
+{
+int r;
+
+print_last_digit(98);
+print_last_digit(0);
+r = print_last_digit(-1024);
+_putchar('0' + r);
+_putchar('\n');
+return (0);
 }
 /*Function that computes the absolute value of an integer*/
 int _abs(int x)
@@ -26,19 +49,4 @@ else if (x == 0)
 {
 return (0);
 }
-}
-/*main function*/
-int main(void)
-{
-int r;
-
-r = _abs(-1);
-printf("%d\n", r);
-r = _abs(0);
-printf("%d\n", r);
-r = _abs(1);
-printf("%d\n", r);
-r = _abs(-98);
-printf("%d\n", r);
-return (0);
 }

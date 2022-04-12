@@ -3,10 +3,28 @@
 /**
 *_isaplha checks for alphabetic character.
 * main - check the code
-* _isalpha function resides in main.h
 *Return: Always 0 (success)
+*_putchar Function to print character on stdout
 */
+char _putchar(char c)
+{
+return (write(1, &c, 1));
+}
+/*_isalpha checks for alphabettic character*/
+int _isalpha(int c)
+{
+char i;
 
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
+/*main function*/
 int main(void)
 {
 int r;

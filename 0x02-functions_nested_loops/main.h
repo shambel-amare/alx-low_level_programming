@@ -2,58 +2,18 @@
 #define MAIN_H
 
 /*Function to print character on stdout*/
-char _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-
-/*this function prints the sign of a number*/
-int print_sign(int n)
-{
-if (n > 0)
-{
-_putchar('+');
-return (1);
-}
-else if (n < 0)
-{
-_putchar('-');
-return (-1);
-}
-else if (n == 0)
-{
-_putchar('0');
-return (0);
-}
-}
-
+char _putchar(char c);
+/* Function to print alphabets*/
+void print_alphabet(void);
+/*Function to print alphabets with 10X while loop*/
+void print_alphabet_x10(void);
+/*function to print 1 for lowercase and 0 otherwise*/
+int _islower(int k);
+/*_isalpha checks for alphabettic character*/
+int _isalpha(int c);
 /*Function that computes the absolute value of an integer*/
-int _abs(int x)
-{
-if (x > 0)
-{
-return (x);
-}
-else if (x < 0)
-{
-return (-x);
-}
-else if (x == 0)
-{
-return (0);
-}
-}
-/*print the last digit of a number*/
-int print_last_digit(int n)
-{
-int lD;
-if (n < 0)
-{
-n = _abs(n);
-}
-lD = n % 10;
-_putchar(lD + '0');
-return(lD);
-}
+int _abs(int x);
+/*this function prints the sign of a number*/
+int print_sign(int n);
 
 #endif /*MAIN_H*/
