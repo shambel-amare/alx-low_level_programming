@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
-*Return: Always 0 (success)
-*_putchar Function to print character on stdout
+* print_alphabet -prints all alphabets in one line
 */
-/*_putchar Function to print character on stdout*/
+
 void print_alphabet(void)
 {
 char c;
