@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
+* main - check the code
+* _islower function resides in main.h
 *Return: Always 0 (success)
 */
 
