@@ -16,7 +16,7 @@ if ((a > b && b > c) || (a > b && a > c))
 {
 largest = a;
 }
-else if (b > a && a > c)
+else if ((b > a && a > c) || (b > a && b > c))
 {
 largest = b;
 }
