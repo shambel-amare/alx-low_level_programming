@@ -1,27 +1,30 @@
 #include <stdio.h>
+
 /**
-* main - Entry point
-* Return: Always 0 (success)
+* main - Prints 3 combination of numbers
+*
+* Return: Always (Success)
 */
 int main(void)
 {
-int c, j, k, i;
-for (c = 0; c < 10; c++)
+int c, i, k, j;
+
+for (c = 48; c <= 57; c++)
 {
-for (i = 0; i < 10; i++)
+for (i = 48; i <= 57; i++)
 {
-for (k = 0; k < 10; k++)
+for (k = 48; k <= 57; k++)
 {
-for (j = 0; j < 10; j++)
+for (j = 48; j <= 57; j++)
 {
 if (((k + j) > (c + i) &&  k >= c) || c < k)
 {
-putchar(c + '0');
-putchar(i + '0');
+putchar(c);
+putchar(i);
 putchar(' ');
-putchar(k + '0');
-putchar(j + '0');
-}
+putchar(k);
+putchar(j);
+
 if (c + i + k + j == 227 && c == 57)
 {
 break;
@@ -35,6 +38,9 @@ putchar(' ');
 }
 }
 }
+}
+
 putchar('\n');
+
 return (0);
 }
