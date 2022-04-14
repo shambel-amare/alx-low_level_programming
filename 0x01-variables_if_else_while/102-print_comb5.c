@@ -21,10 +21,8 @@ putchar(i + '0');
 putchar(' ');
 putchar(k + '0');
 putchar(j + '0');
-putchar(',');
-
 }
-else if (c + i + k + j == 227 && c == 57)
+if (c + i + k + j == 227 && c == 57)
 {
 break;
 }
