@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Entry point
-*Return: Always 0 (success)
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -19,7 +19,7 @@ if (((k + j) > (c + i) &&  k >= c) || c < k)
 putchar(c + '0');
 putchar(i + '0');
 putchar(' ');
-putchar(k+ '0');
+putchar(k + '0');
 putchar(j + '0');
 }
 else if (c + i + k + j == 227 && c == 57)
