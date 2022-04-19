@@ -1,0 +1,1 @@
+This is a repository for the ALX low level programming week at ALX SE africa
