@@ -1,0 +1,1 @@
+int main(c){while((c=getchar())+1)putchar(isalpha(c)?tolower(c)<'n'?c+13:c-13:c);}
