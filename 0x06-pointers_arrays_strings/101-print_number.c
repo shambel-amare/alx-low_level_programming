@@ -1,23 +1,31 @@
 #include "main.h"
+
 /**
-*print_number - prints a number using _putchar.
+ *print_number - print a number using _putchar.
 *@n: the number to be printed.
 */
 
 void print_number(int n)
 {
-/*If number is smaller than 0, put a - sign*/
-/* and change number to positive*/
-if (n < 0) 
+unsigned int i = 1;
+
+if (n < 0)
 {
 _putchar('-');
-n = -n;
+n *= -1;
 }
+if (n == 0)
+_putchar('0');
+else
+{
+while ((n / i) >= 10)
+i *= 10;
 
- /* Remove the last digit and recur*/
-if (n/10)
-print_number(n/10);
-
- /* Print the last digit*/
-_putchar(n % 10 + '0');
+while (i > 0)
+{
+_putchar((n / i) +'0');
+n %= i;
+i /= 10;
+}
+}
 }
