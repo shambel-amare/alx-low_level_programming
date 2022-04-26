@@ -1,0 +1,1 @@
+This is a Directory is for the ALX low level programming week at ALX SE africa project ox07_pointers_arrays_strings
