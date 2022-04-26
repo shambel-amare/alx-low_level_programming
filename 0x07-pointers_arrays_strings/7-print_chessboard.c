@@ -12,7 +12,9 @@ int i = 0, j;
 for (i; i < 8; i++)
 {
 for (j = 0; j < 8; j++)
+{
 putchar(a[i][j]);
 putchar('\n');
+}
 }
 }
