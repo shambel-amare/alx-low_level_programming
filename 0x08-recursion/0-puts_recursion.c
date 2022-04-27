@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
-/*
-*_puts_recursion - a function that prints a string then *new line.
+/**
+*_puts_recursion -function that prints a string with \n
 * @s: the input string
 *Return: nothing
  */
