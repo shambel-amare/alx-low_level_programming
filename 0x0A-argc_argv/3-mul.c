@@ -6,24 +6,19 @@
 *@argv: array of input arguments
 *Return: Always 0 (success)
 */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-char sum = 0;
-
+int x1, x2;
 if (argc == 3)
 {
-while (argc > 0)
-{
-sum += atoi(*(argv + 1));
-argc--;
-}
+x1 = atoi(argv[1]);
+x2 = atoi(argv[2]);
+printf("%d\n", x1 *x2);
 }
 else
 {
 printf("Error\n");
 return (-1);
 }
-printf("%d\n", sum);
-
 return (0);
 }
