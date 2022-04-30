@@ -17,19 +17,17 @@ return (0);
 }
 if (argc > 1)
 {
-
 for (i = 1; i < argc; i++)
 {
 int x = atoi(argv[i]);
 
-if (*argv[i] < 48 || *argv[i] > 58)
+if (*argv[i] < 48 || *argv[i] > 58) /* If the assci code is < digit*/
 {
 printf("Error\n");
 return (-1);
-break;
 }
 x1 += x;
-}
+
 }
 printf("%d\n", x1);
 return (0);
