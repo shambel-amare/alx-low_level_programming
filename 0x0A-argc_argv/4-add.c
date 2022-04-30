@@ -24,7 +24,7 @@ int x = atoi(argv[i]);
 if (*argv[i] < 48 || *argv[i] > 58)
 {
 printf("Error\n");
-return (-1);
+return (1);
 }
 x1 += x;
 }
