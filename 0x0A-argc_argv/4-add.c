@@ -27,7 +27,7 @@ return (1);
 }
 x1 += x;
 }
-}
 printf("%d\n", x1);
+}
 return (0);
 }
