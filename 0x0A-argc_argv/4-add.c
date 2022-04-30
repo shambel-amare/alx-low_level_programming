@@ -21,13 +21,13 @@ for (i = 1; i < argc; i++)
 {
 int x = atoi(argv[i]);
 
-if (*argv[i] < 48 || *argv[i] > 58) /* If the assci code is < digit*/
+if (*argv[i] < 48 || *argv[i] > 58)
 {
 printf("Error\n");
 return (-1);
 }
 x1 += x;
-
+}
 }
 printf("%d\n", x1);
 return (0);
