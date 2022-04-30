@@ -20,7 +20,8 @@ if (argc > 1)
 for (i = 1; i < argc; i++)
 {
 int x = atoi(argv[i]);
-if (x == 0)
+
+if (*argv[i] < 48 || *argv[i] > 58)
 {
 printf("Error\n");
 return (-1);
